@@ -11,10 +11,9 @@ public class Exercise13 {
         studentList.put(4, "Candy");
         studentList.put(5, "James");
         studentList.put(5, "Hanna");
-
-        HashMap<String, Integer> newStudentList = new HashMap<String, Integer>();
         System.out.println(studentList);
 
+        HashMap newStudentList = new HashMap();
         for (int i : studentList.keySet()) {
             newStudentList.put(studentList.get(i), i );
         }
